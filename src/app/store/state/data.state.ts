@@ -1,5 +1,5 @@
 export interface IDataState {
-  data: any;
+  data?: unknown;
 }
 
 export const initialDataState: IDataState = {
